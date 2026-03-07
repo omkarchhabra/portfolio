@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌐 Personal Portfolio Website
 
-## Getting Started
+This repository contains the source code for my personal portfolio website. The site highlights my projects, technical skills, and experience as a developer.
 
-First, run the development server:
+The goal of this portfolio is to provide a clean, modern, and responsive platform where visitors can explore the work I’ve built and the technologies I use.
 
-```bash
+🔗 Live Website
+
+https://www.workwithomkar.com
+
+🚀 Features
+
+Responsive design across desktop, tablet, and mobile devices
+
+Clean and modern UI
+
+Project showcase section
+
+Skills and technologies overview
+
+Contact section for networking opportunities
+
+Optimized for fast performance
+
+Automatically deployed with Vercel
+
+🛠 Tech Stack
+
+Framework: Next.js / React
+
+Styling: CSS / TailwindCSS
+
+Deployment: Vercel
+
+Version Control: Git & GitHub
+
+📂 Project Structure
+portfolio/
+│
+├── public/            # Static assets (images, icons, etc.)
+├── components/        # Reusable UI components
+├── pages/             # Website pages
+├── styles/            # Global styles
+├── package.json       # Project dependencies
+└── README.md
+⚙️ Running the Project Locally
+
+Clone the repository:
+
+git clone https://github.com/omkarchhabra/portfolio.git
+
+Navigate into the project folder:
+
+cd portfolio
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+📦 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website is deployed using Vercel.
 
-## Learn More
+Every push to the main branch automatically triggers a new deployment.
 
-To learn more about Next.js, take a look at the following resources:
+📬 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Portfolio: https://www.workwithomkar.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+GitHub: https://github.com/omkarchhabra
 
-## Deploy on Vercel
+LinkedIn: https://www.linkedin.com/in/omkarchhabra
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the MIT License.
