@@ -9,7 +9,7 @@ type Project = (typeof portfolioData.projects)[number];
 type Experience = (typeof portfolioData.experience)[number];
 
 export default function Home() {
-  const { personal, experience, skills, projects } = portfolioData;
+  const { personal, education, experience, skills, projects } = portfolioData;
 
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [selectedExperience, setSelectedExperience] = useState<Experience | null>(null);
@@ -45,6 +45,9 @@ export default function Home() {
           <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
             <a href="#home" className="hover:text-[var(--primary)]">
               Home
+            </a>
+            <a href="#education" className="hover:text-[var(--primary)]">
+              Education
             </a>
             <a href="#experience" className="hover:text-[var(--primary)]">
               Experience
@@ -132,6 +135,40 @@ export default function Home() {
                 className="object-cover"
                 priority
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+        <h2 className="text-3xl font-bold sm:text-4xl">Education</h2>
+        <p className="mt-4 text-lg text-[var(--muted)]">
+          Academic background and graduation details
+        </p>
+
+        <div className="mt-10 overflow-hidden rounded-[var(--radius-xl)] border border-[var(--border)] bg-[var(--surface)]">
+          <div className="grid items-stretch md:grid-cols-[320px_1fr]">
+            <div className="relative min-h-[260px]">
+              <Image
+                src={education.image}
+                alt={education.school}
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <div className="flex flex-col justify-center p-8 md:p-10">
+              <h3 className="text-2xl font-bold sm:text-3xl">{education.school}</h3>
+              <p className="mt-4 text-lg text-zinc-200">{education.degree}</p>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <span className="rounded-full border border-[var(--border)] bg-[var(--surface-soft)] px-4 py-2 text-sm font-medium text-zinc-100">
+                  {education.gpa}
+                </span>
+                <span className="rounded-full border border-[var(--border)] bg-[var(--surface-soft)] px-4 py-2 text-sm font-medium text-zinc-100">
+                  {education.graduation}
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -291,6 +328,7 @@ export default function Home() {
           <p>© 2026 {personal.name}. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#home">Home</a>
+            <a href="#education">Education</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>

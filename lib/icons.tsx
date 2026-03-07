@@ -25,7 +25,15 @@ import {
 
 import { FaAws } from "react-icons/fa";
 import { FaCuttlefish } from "react-icons/fa6";
-import { Brain, Database, Bot, Mail, Phone, Github, Linkedin } from "lucide-react";
+import {
+  Brain,
+  Database,
+  Bot,
+  Mail,
+  Phone,
+  Github,
+  Linkedin,
+} from "lucide-react";
 
 export const skillIconMap = {
   JavaScript: { icon: SiJavascript, color: "#F7DF1E" },

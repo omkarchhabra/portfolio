@@ -15,6 +15,14 @@ export const portfolioData = {
     resume: "/Omkar_Chhabra_Resume.pdf",
   },
 
+  education: {
+    school: "California State University, Long Beach",
+    degree: "Bachelor of Science in Computer Science",
+    gpa: "GPA: 3.4",
+    graduation: "Graduated Dec 2025",
+    image: "/experience/education-logo.png",
+  },
+
   experience: [
     {
       id: "cs-tutor",
