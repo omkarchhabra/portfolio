@@ -12,7 +12,7 @@ export const portfolioData = {
     location: "Long Beach, CA",
     linkedin: "https://linkedin.com/in/omkar-chhabra",
     github: "https://github.com/omkarchhabra",
-    resume: "/Omkar_Chhabra_Resume.pdf",
+    resume: "/Omkar_CV.pdf",
   },
 
   education: {
@@ -24,6 +24,23 @@ export const portfolioData = {
   },
 
   experience: [
+    {
+      id: "adobe-intern",
+      title: "Software Engineer Intern",
+      company: "Adobe Inc.",
+      location: "San Jose, CA",
+      duration: "May 2024 – Present",
+      image: "/experience/adobe.png",
+      description:
+        "Built and shipped a document intelligence feature using Python and LangChain with a RAG pipeline over internal knowledge bases.",
+      points: [
+        "Built and shipped a document intelligence feature using Python and LangChain with a RAG pipeline over internal knowledge bases, reducing average support escalation time by 35%.",
+        "Developed 6 REST API endpoints in Node.js integrated with PostgreSQL to serve structured metadata for Adobe’s document processing pipeline, handling 10K+ daily requests.",
+        "Containerized 3 microservices using Docker and deployed to AWS EC2 behind an Application Load Balancer; set up GitHub Actions CI/CD pipeline reducing deployment cycle from 2 days to under 2 hours.",
+        "Added Prometheus metrics and 4 Grafana dashboards to monitor service health, latency, and error rates across production environments.",
+        "Participated in bi-weekly code reviews, sprint planning, and architecture discussions; resolved 12+ bug reports across the codebase within agreed SLA windows.",
+      ],
+    },
     {
       id: "cs-tutor",
       title: "Computer Science Tutor",
